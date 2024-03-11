@@ -8,7 +8,7 @@ namespace DesignPattern
 {
     public class PlatinumCreditCardFactory : CreditCardFactory
     {
-        public override ICreditCard createCreditCard()
+        public override ICreditCard MakeProduct()
         {
             return new PlatinumCreditCard();
         }

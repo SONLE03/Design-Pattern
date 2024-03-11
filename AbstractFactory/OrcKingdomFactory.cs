@@ -10,16 +10,16 @@ namespace AbstractFactory
     {
         public ICastle createCastle()
         {
-            return new ElfCastle();
+            return new OrcCastle();
         }
 
         public IKing createKing()
         {
-            return new ElfKing();
+            return new OrcKing();
         }
         public IArmy createArmy()
         {
-            return new ElfArmy();
+            return new OrcArmy();
         }
     }
 }

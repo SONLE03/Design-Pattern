@@ -10,7 +10,7 @@ namespace AbstractFactory
     {
         public string getDescription()
         {
-            return "This is the elven castle!";
+            return "This is the elf castle!";
         }
     }
 }

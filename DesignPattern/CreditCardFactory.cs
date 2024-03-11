@@ -8,13 +8,11 @@ namespace DesignPattern
 {
     public abstract class CreditCardFactory
     {
-        public abstract ICreditCard createCreditCard();
+        public abstract ICreditCard MakeProduct();
 
-        public string SomeOperation()
+        public ICreditCard CreateProduct()
         {
-            var creditCard = createCreditCard();
-            var result = $"Credit card type: { creditCard.Operation() }";
-            return result;
+            return this.MakeProduct();
         }
 
     }

@@ -8,6 +8,8 @@ namespace DesignPattern
 {
     public interface ICreditCard
     {
-        string Operation();
+        string GetCardType();
+        int GetCreditLimit();
+
     }
 }

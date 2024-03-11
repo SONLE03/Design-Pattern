@@ -8,9 +8,13 @@ namespace DesignPattern
 {
     public class PlatinumCreditCard : ICreditCard
     {
-        public string Operation()
+        public string GetCardType()
         {
-            return "Platinum Credit Card";
+            return "PlatinumCreditCard Credit Card";
+        }
+        public int GetCreditLimit()
+        {
+            return 30000;
         }
     }
 }

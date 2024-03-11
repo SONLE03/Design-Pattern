@@ -4,11 +4,21 @@
     {
         static void Main(string[] args)
         {
-            GoldCreditCard goldCreditCard = new GoldCreditCard();
-            PlatinumCreditCard platinumCreditCard = new PlatinumCreditCard();
+           
+            CreditCardFactory goldCardFactory = new GoldCreditCardFactory();
+            ICreditCard goldCard = goldCardFactory.CreateProduct();
 
-            Console.WriteLine(goldCreditCard.Operation());
-            Console.WriteLine(platinumCreditCard.Operation());
+            Console.WriteLine($"Card Type: {goldCard.GetCardType()}");
+            Console.WriteLine($"Credit Limit: ${goldCard.GetCreditLimit()}");
+
+
+            CreditCardFactory platinumCardFactory = new PlatinumCreditCardFactory();
+            ICreditCard platinumCard = platinumCardFactory.CreateProduct();
+
+            Console.WriteLine($"Card Type: {platinumCard.GetCardType()}");
+            Console.WriteLine($"Credit Limit: ${platinumCard.GetCreditLimit()}");
+
+            Console.ReadLine();
         }
     }
 }

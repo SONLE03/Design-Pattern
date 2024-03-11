@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace AbstractFactory
 {
-    public class ElfKing : IKing
+    public class OrcCastle : ICastle
     {
         public string getDescription()
         {
-            return "This is the elf king!";
+            return "This is the orc Castle!";
         }
     }
 }
