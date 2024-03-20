@@ -4,10 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace FactoryMethodv2
+namespace Builder
 {
-    public interface ICard
+    public enum Profession
     {
-        CardType CardType { get; }
+        WARRIOR, THIEF, MAGE, PRIEST
     }
 }

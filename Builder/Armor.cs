@@ -4,12 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DesignPattern
+namespace Builder
 {
-    public interface ICreditCard
+    public enum Armor
     {
-        string GetCardType();
-        int GetCreditLimit();
-
+        CLOTHES,
+        LEATHER,
+        CHAIN_MAIL,
+        PLATE_MAIL
     }
 }

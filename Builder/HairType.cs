@@ -4,13 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace FactoryMethodv2
+namespace Builder
 {
-    public enum CardType
+    public enum HairType
     {
-        SHORT_SWORD,
-        SPEAR,
-        AXE,
-        UNDEFINED
+        BALD,
+        SHORT,
+        CURLY,
+        LONG_STRAIGHT,
+        LONG_CURLY
     }
 }
