@@ -21,7 +21,6 @@
                 circle.Draw();
                 circlePool.ReturnObject(circle);
             }
-
             Console.ReadKey();
         }
     }
