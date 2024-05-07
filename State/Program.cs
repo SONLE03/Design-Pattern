@@ -28,7 +28,7 @@
             Console.WriteLine("ATM Machine Current state : "
                             + atmMachine.AtmMachineState.GetType().Name);
             Console.Read();
-    
+
         }
     }
 }
