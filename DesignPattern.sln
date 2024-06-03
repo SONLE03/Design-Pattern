@@ -43,9 +43,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mediator", "Mediator\Mediat
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Memento", "Memento\Memento.csproj", "{52A3853C-B8CA-45F0-9176-F0F075A02D66}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoR", "CoR\CoR.csproj", "{A4849AB7-9688-4665-87D0-19788B7DC5C3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CoR", "CoR\CoR.csproj", "{A4849AB7-9688-4665-87D0-19788B7DC5C3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interpreter", "Interpreter\Interpreter.csproj", "{D7227E35-715F-45F0-ABA4-105ABC99BC2C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Interpreter", "Interpreter\Interpreter.csproj", "{D7227E35-715F-45F0-ABA4-105ABC99BC2C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Iterator", "Iterator\Iterator.csproj", "{839F065D-5B9F-4980-B1AE-B3EE4A7396EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Observer", "Observer\Observer.csproj", "{092B1467-8EB1-492E-8E91-8880E5A206DD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -141,6 +145,14 @@ Global
 		{D7227E35-715F-45F0-ABA4-105ABC99BC2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D7227E35-715F-45F0-ABA4-105ABC99BC2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D7227E35-715F-45F0-ABA4-105ABC99BC2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{839F065D-5B9F-4980-B1AE-B3EE4A7396EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{839F065D-5B9F-4980-B1AE-B3EE4A7396EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{839F065D-5B9F-4980-B1AE-B3EE4A7396EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{839F065D-5B9F-4980-B1AE-B3EE4A7396EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{092B1467-8EB1-492E-8E91-8880E5A206DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{092B1467-8EB1-492E-8E91-8880E5A206DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{092B1467-8EB1-492E-8E91-8880E5A206DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{092B1467-8EB1-492E-8E91-8880E5A206DD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
